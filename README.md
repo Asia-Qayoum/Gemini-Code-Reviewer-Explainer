@@ -1,11 +1,12 @@
 
+# 🔗[🚀✨ GEMINI CODE REVIEWER & EXPLAINER ✨🚀]
 
-# 🔗[🚀✨ **GEMINI CODE REVIEWER & EXPLAINER** ✨🚀 ] (https://github.com/yourusername)
-### 🔍🧠 **AI Powered Code Analysis Made Simple** 🧠🔍
+# <span style="color:blue;">🔍🧠 AI Powered Code Analysis Made Simple 🧠🔍</span>
+
 
 ***
 
-## 🔗[🌟 **FEATURES THAT MAKE IT AWESOME** 🌟]  (https://github.com/yourusername)
+## 🔗[🌟 **FEATURES THAT MAKE IT AWESOME** 🌟] 
 ❇️ **Multiple Modes:** Review, Explain, Test Cases, Optimize  
 ❇️ **Intuitive & Responsive React Interface**  
 ❇️ **Real-Time AI-Powered Feedback**  
@@ -14,14 +15,14 @@
 
 ***
 
-## 🔗[📋 **PREREQUISITES TO GET STARTED** 🧰 ] (https://github.com/yourusername)
+## 🔗[📋 **PREREQUISITES TO GET STARTED** 🧰 ] 
 ✔️ **Node.js** & **npm/yarn**  
 ✔️ Backend API supporting **`/analyze`** POST endpoint  
 ✔️ Valid AI API Key (**Google Gemini** or **OpenAI**)  
 
 ***
 
-## 🔗[🛠️ **CRYSTAL CLEAR SETUP INSTRUCTIONS** 🧱](https://github.com/yourusername)
+## 🔗[🛠️ **CRYSTAL CLEAR SETUP INSTRUCTIONS** 🧱]
 
 ### 1️⃣ **Clone Repository**
 
@@ -55,7 +56,7 @@ yarn start
 
 ***
 
-##🔗[ ⚙️ **BACKEND API 🔧 SPECIFICATIONS**](https://github.com/yourusername)
+##🔗[ ⚙️ **BACKEND API 🔧 SPECIFICATIONS**]
 
 ### POST `/analyze`
 
@@ -83,7 +84,7 @@ yarn start
 
 ***
 
-## 🔗[🖥️ **HOW TO USE THE APP** 🎯](https://github.com/yourusername)
+## 🔗[🖥️ **HOW TO USE THE APP** 🎯]
 
 1. Paste your **code snippet** in the textarea.  
 2. Select the desired **mode**:  
@@ -96,7 +97,7 @@ yarn start
 
 ***
 
-## 🔗[🎬 **DEMO & VISUAL PREVIEW** 📸](https://github.com/yourusername)
+## 🔗[🎬 **DEMO & VISUAL PREVIEW** 📸]
 
 <img width="1300" height="615" alt="image" src="https://github.com/user-attachments/assets/83a69891-d1f6-451b-bcb8-3d3dcd89c145" />
 *  
@@ -122,7 +123,7 @@ yarn start
 
 ***
 
-## 🔗[💡 **NEXT STEPS & EXTENSIONS** 🚀](https://github.com/yourusername)
+## 🔗[💡 **NEXT STEPS & EXTENSIONS** 🚀]
 
 ⚙️ User authentication & profiles  
 ⚙️ File upload support for larger projects  
@@ -132,7 +133,7 @@ yarn start
 
 ***
 
-## 🔗[🐛 **TROUBLESHOOTING & COMMON ISSUES** ⚠️](https://github.com/yourusername)
+## 🔗[🐛 **TROUBLESHOOTING & COMMON ISSUES** ⚠️]
 
 🚫 **CORS Errors:** Confirm backend CORS headers allow frontend origin  
 🚫 **API Errors:** Check API keys, quotas, and rate limits  
@@ -141,7 +142,7 @@ yarn start
 
 ***
 
-##🔗[ 🤝 **CONTRIBUTING GUIDE** ⭐](https://github.com/yourusername)
+##🔗[ 🤝 **CONTRIBUTING GUIDE** ⭐]
 
 ✔️ Fork the repository  
 ✔️ Create a feature branch  

@@ -1,99 +1,162 @@
-🚀✨ GEMINI CODE REVIEWER & EXPLAINER ✨🚀
-<span style="font-size:30px;">🔍🧠 AI Powered Code Analysis Made Simple 🧠🔍</span>
 
-🌟 FEATURES THAT MAKE IT AWESOME 🌟
-❇️ Multiple Modes: Review, Explain, Test Cases, Optimize
-❇️ Intuitive & Responsive React Interface
-❇️ Real-Time AI-Powered Feedback
-❇️ Lightweight & Easy Backend Integration
-❇️ Supports Multiline & Complex Code
 
-📋 PREREQUISITES TO GET STARTED 🧰
-✔️ Node.js & npm/yarn
-✔️ Backend API supporting /analyze POST
-✔️ Valid AI API Key (Gemini or OpenAI)
+# 🔗[🚀✨ **GEMINI CODE REVIEWER & EXPLAINER** ✨🚀 ] 
+### 🔍🧠 **AI Powered Code Analysis Made Simple** 🧠🔍
 
-🛠️ CRYSTAL CLEAR SETUP INSTRUCTIONS 🧱
-1️⃣ Clone Repository
-bash
-git clone <your-repo-url>  
-cd <project-folder>
-2️⃣ Install Dependencies
-bash
+***
+
+## 🔗[🌟 **FEATURES THAT MAKE IT AWESOME** 🌟]  
+❇️ **Multiple Modes:** Review, Explain, Test Cases, Optimize  
+❇️ **Intuitive & Responsive React Interface**  
+❇️ **Real-Time AI-Powered Feedback**  
+❇️ **Lightweight & Easy Backend Integration**  
+❇️ **Supports Multiline & Complex Code**
+
+***
+
+## 🔗[📋 **PREREQUISITES TO GET STARTED** 🧰 ] 
+✔️ **Node.js** & **npm/yarn**  
+✔️ Backend API supporting **`/analyze`** POST endpoint  
+✔️ Valid AI API Key (**Google Gemini** or **OpenAI**)  
+
+***
+
+## 🔗[🛠️ **CRYSTAL CLEAR SETUP INSTRUCTIONS** 🧱]
+
+### 1️⃣ **Clone Repository**
+
+```bash
+git clone   
+cd 
+```
+
+### 2️⃣ **Install Dependencies**
+
+```bash
 npm install  
 # OR  
 yarn install
-3️⃣ Launch Frontend
-bash
+```
+
+### 3️⃣ **Launch Frontend**
+
+```bash
 npm start  
 # OR  
 yarn start
-<sub>🚦 Visit: http://localhost:3000 to use the app</sub>
+```
 
-4️⃣ Backend Setup Essentials
-🔥 Make sure backend is running at http://localhost:5000 with /analyze endpoint
-🔥 Configure API keys and CORS properly
+🚦 Visit: [http://localhost:3000](http://localhost:3000) to use the app
 
-⚙️ BACKEND API 🔧 SPECIFICATIONS
-POST /analyze
-Request JSON:
+### 4️⃣ **Backend Setup Essentials**
 
-json
+🔥 Make sure your backend is running at `http://localhost:5000` with `/analyze` endpoint  
+🔥 Configure API keys and CORS properly to allow frontend requests  
+
+***
+
+##🔗[ ⚙️ **BACKEND API 🔧 SPECIFICATIONS**]
+
+### POST `/analyze`
+
+**Request JSON:**
+
+```json
 {
-  "code": "<your_code_here>",
-  "mode": "<review|explain|testcases|optimize>"
+  "code": "",
+  "mode": ""
 }
-Response JSON:
+```
 
-json
+**Response JSON:**
+
+```json
 {
-  "result": "<AI generated output>"
+  "result": ""
 }
-✅ Backend must:
+```
 
-Support CORS for frontend
+✅ Backend must:  
+- Support CORS for frontend requests  
+- Handle different `mode` values by adjusting language model prompts  
+- Interface with **Google Gemini** or **OpenAI GPT** APIs  
 
-Handle different modes by adjusting prompts
+***
 
-Interface with Gemini/OpenAI APIs
+## 🔗[🖥️ **HOW TO USE THE APP** 🎯]
 
-🖥️ HOW TO USE THE APP 🎯
-Paste your code snippet in the textarea.
+1. Paste your **code snippet** in the textarea.  
+2. Select the desired **mode**:  
+   - Review Code  
+   - Explain Code  
+   - Suggest Test Cases  
+   - Optimize Code  
+3. Click the **Submit** button.  
+4. Read the AI-generated output displayed below the form.  
 
-Select mode (Review, Explain, Test Cases, Optimize).
+***
 
-Click Submit.
+## 🔗[🎬 **DEMO & VISUAL PREVIEW** 📸]
 
-Read the AI’s magic response below!
+<img width="1300" height="615" alt="image" src="https://github.com/user-attachments/assets/83a69891-d1f6-451b-bcb8-3d3dcd89c145" />
+*  
 
-🎬 DEMO & VISUAL PREVIEW 📸
+***
 
-<img width="1177" height="591" alt="image" src="https://github.com/user-attachments/assets/2cfd5d49-4e52-461c-8c05-c2aeb1afd1f5" />
-<img width="1537" height="715" alt="image" src="https://github.com/user-attachments/assets/4a94b0a5-ed9b-4854-9ea5-f4e9d28376f1" />
+<img width="1368" height="820" alt="image" src="https://github.com/user-attachments/assets/c9433126-f4ee-44ee-b728-0d4c7971d268" />
+*  
 
-<img width="1280" height="742" alt="image" src="https://github.com/user-attachments/assets/45818414-3edd-439e-821f-ce3de844842b" />
-<img width="1161" height="643" alt="image" src="https://github.com/user-attachments/assets/c05bb94a-870e-43ef-9334-d5ccd2a013d9" />
-<img width="1267" height="757" alt="image" src="https://github.com/user-attachments/assets/e37e233e-f011-4345-a02b-411a1833b43d" />
+***
+<img width="1723" height="720" alt="image" src="https://github.com/user-attachments/assets/60c3fef6-9bbc-42bb-b801-5c8b589ecbf6" />
+*  
 
-💡 NEXT STEPS & EXTENSIONS 🚀
-⚙️ User authentication & profiles
-⚙️ File upload support
-⚙️ Streaming AI responses
-⚙️ Multi-language support
-⚙️ Admin dashboard for API & user management
+***
+<img width="1321" height="672" alt="image" src="https://github.com/user-attachments/assets/6d41b55d-3462-4dcc-bedc-19b9f550eb48" />
+*  
 
-🐛 TROUBLESHOOTING & COMMON ISSUES ⚠️
-🚫 CORS Errors → Confirm backend CORS headers
-🚫 API Errors → Check API keys and rate limits
-🚫 Slow Performance → Tune AI params or backend specs
-🚫 Network Errors → Confirm correct API URLs
+***
+<img width="1548" height="760" alt="image" src="https://github.com/user-attachments/assets/8c9dc4dd-0e09-463a-b1b8-8563964b23c7" />
+*  
 
-🤝 CONTRIBUTING GUIDE ⭐
-✔️ Fork & clone
-✔️ Create a branch
-✔️ Commit with clear messages
-✔️ Open a PR for review
 
-📄 LICENSE 📜
-This project is licensed under the MIT License
+
+***
+
+## 🔗[💡 **NEXT STEPS & EXTENSIONS** 🚀]
+
+⚙️ User authentication & profiles  
+⚙️ File upload support for larger projects  
+⚙️ Streaming AI responses for real-time feedback  
+⚙️ Multi-language and domain-specific support  
+⚙️ Admin dashboard for API key & user management  
+
+***
+
+## 🔗[🐛 **TROUBLESHOOTING & COMMON ISSUES** ⚠️]
+
+🚫 **CORS Errors:** Confirm backend CORS headers allow frontend origin  
+🚫 **API Errors:** Check API keys, quotas, and rate limits  
+🚫 **Slow Performance:** Tune AI parameters or increase backend capacity  
+🚫 **Network Errors:** Confirm proper backend URL and port configurations  
+
+***
+
+##🔗[ 🤝 **CONTRIBUTING GUIDE** ⭐]
+
+✔️ Fork the repository  
+✔️ Create a feature branch  
+✔️ Commit with clear descriptive messages  
+✔️ Open a pull request for review  
+
+***
+
+## 🔗[📄 **LICENSE** 📜]
+
+This project is licensed under the **MIT License**.
+
+***
+
+If you want me to help you generate **backend sample code**, **deployment instructions**, or add **advanced usage guides**, please let me know!
+
+***
 

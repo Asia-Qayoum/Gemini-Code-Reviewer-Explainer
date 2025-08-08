@@ -1,135 +1,117 @@
-# Gemini-Code-Reviewer-Explainer
-A responsive web application frontend built with React that allows users to submit code snippets for intelligent analysis via an LLM backend (such as Google Gemini or OpenAI GPT). Users can choose different modes—code review, explanation, test case suggestions, and optimization—to get tailored AI-powered feedback and insights in real-time.
-Based on the React code you shared for your Gemini Code Reviewer & Explainer web application, and the style of the AI Medical Assistant README you provided as a sample, here is a professional, clear, and well-structured README file tailored for your project. This README follows similar sections and tone to your sample for consistency and ease of onboarding users and developers.
+Here is an enhanced, polished README file for your Gemini Code Reviewer & Explainer project. It follows your provided format and adds a Demo section for screenshots, along with some stylistic and structural enhancements for clarity and appeal.
 
-***
-
-# Gemini Code Reviewer & Explainer
-
+Gemini Code Reviewer & Explainer
 A React-based frontend web application paired with an LLM-powered backend that helps developers review, explain, optimize, and generate test cases for their code snippets using advanced AI language models like Google Gemini or OpenAI GPT.
 
-***
+🚀 Features
+Multiple Modes: Choose from code review, explanation, test case suggestions, or code optimization powered by an intelligent AI backend.
 
-## 🚀 Features
+Intuitive Interface: Responsive and user-friendly React UI optimized for smooth developer experience.
 
-- **Multiple Modes:** Choose from code review, explanation, test case suggestions, or code optimization powered by an intelligent AI backend.
-- **Intuitive Interface:** Responsive and user-friendly React UI optimized for smooth developer experience.
-- **Real-time Feedback:** Receive instant, AI-generated insights on your code.
-- **Easy Integration:** Communicates with your backend API over HTTP for flexible deployment.
-- **Support for Large Code Inputs:** Handles multi-line code snippets comfortably.
+Real-time Feedback: Receive instant, AI-generated insights on your code.
 
-***
+Easy Integration: Communicates seamlessly with your backend API over HTTP.
 
-## 📋 Prerequisites
+Large Code Support: Handles multiline and complex code snippets comfortably.
 
-- Node.js (for running React app)
-- npm or yarn package manager
-- Backend API running locally or remotely providing `/analyze` POST endpoint
-- Compatible AI API key configured in backend (e.g., Google Gemini API or OpenAI API)
+📋 Prerequisites
+Node.js (for running the React app)
 
-***
+npm or yarn package manager
 
-## 🛠️ Setup Instructions
+Backend API running locally or remotely providing a POST /analyze endpoint
 
-### 1. Clone the Repository
+Compatible AI API key configured in the backend (e.g., Google Gemini API or OpenAI API)
 
-```bash
-git clone 
-cd 
-```
-
-### 2. Install Frontend Dependencies
-
-```bash
+🛠️ Setup Instructions
+1. Clone the Repository
+bash
+git clone <your-repo-url>
+cd <your-project-folder>
+2. Install Frontend Dependencies
+bash
 npm install
-```
-_or_
+or
 
-```bash
+bash
 yarn install
-```
-
-### 3. Start the Frontend Application
-
-```bash
+3. Start the Frontend Application
+bash
 npm start
-```
-_or_
+or
 
-```bash
+bash
 yarn start
-```
+The app will be available at http://localhost:3000.
 
-The app should now be running on [http://localhost:3000](http://localhost:3000).
+⚙️ Backend API Requirements
+Your frontend expects a backend running at http://localhost:5000 (or your configured backend URL) with a POST endpoint /analyze accepting JSON:
 
-***
-
-## ⚙️ Backend API Requirements
-
-The frontend expects a backend running on `http://localhost:5000` with a POST endpoint `/analyze` that accepts JSON:
-
-```json
+json
 {
-  "code": "",
-  "mode": ""
+  "code": "<your_code_here>",
+  "mode": "<review|explain|testcases|optimize>"
 }
-```
+It should respond with JSON:
 
-It returns a JSON with the AI's result:
-
-```json
+json
 {
-  "result": ""
+  "result": "<AI generated output>"
 }
-```
+Ensure your backend:
 
-Make sure your backend:
+Allows cross-origin requests (CORS) from the frontend origin
 
-- Allows cross-origin requests from the frontend
-- Handles different `mode` values by configuring language model prompts accordingly
-- Communicates with Google Gemini or OpenAI GPT API to generate responses
+Processes different mode values by setting appropriate LLM prompts
 
-***
+Communicates with AI models like Google Gemini or OpenAI GPT to generate responses
 
-## 🖥️ Usage
+🖥️ Usage
+Paste or type your code snippet in the text area.
 
-1. Paste or type your code into the text area.
-2. Select the desired analysis mode (Review, Explain, Suggest Test Cases, or Optimize).
-3. Click the **Submit** button.
-4. View the AI-generated response displayed below the form.
+Select the analysis mode from the dropdown:
 
-***
+Review Code
 
-## 💡 Extending the Project
+Explain Code
 
-- Add authentication for user accounts.
-- Support file uploads for larger codebases.
-- Integrate streaming responses for real-time result updates.
-- Extend backend with more granular AI prompt customization.
-- Develop a backend admin panel to manage API keys and usage.
+Suggest Test Cases
 
-***
+Optimize Code
 
-## 🐛 Troubleshooting
+Press the Submit button.
 
-- **CORS errors:** Ensure your backend has appropriate CORS headers to allow requests from `http://localhost:3000`.
-- **Empty or error responses:** Check backend logs and API key validity.
-- **Slow performance:** Adjust AI model parameters or upgrade backend hardware.
+View the AI-generated analysis or suggestions displayed below.
 
-***
+🎬 Demo
+Below are some screenshots showcasing the UI and example outputs:
 
-## 🤝 Contributing
 
-- Fork the repository.
-- Create a feature branch.
-- Commit your changes.
-- Open a pull request for review.
+<img width="1177" height="591" alt="image" src="https://github.com/user-attachments/assets/2cfd5d49-4e52-461c-8c05-c2aeb1afd1f5" />
+<img width="1280" height="742" alt="image" src="https://github.com/user-attachments/assets/45818414-3edd-439e-821f-ce3de844842b" />
+<img width="1161" height="643" alt="image" src="https://github.com/user-attachments/assets/c05bb94a-870e-43ef-9334-d5ccd2a013d9" />
+<img width="1267" height="757" alt="image" src="https://github.com/user-attachments/assets/e37e233e-f011-4345-a02b-411a1833b43d" />
 
-***
 
-## 📄 License
+🐛 Troubleshooting
+CORS errors: Confirm backend includes appropriate CORS headers allowing requests from your frontend URL.
 
+Empty or invalid responses: Check backend service health and validate your AI API keys.
+
+Slow or unresponsive: Adjust AI model parameters like temperature, max tokens, or upgrade backend hardware.
+
+Network Issues: Verify that backend is running and accessible at expected port or URL.
+
+🤝 Contributing
+Fork this repository.
+
+Create a new feature branch.
+
+Commit your well-documented changes.
+
+Open a pull request for review.
+
+We welcome contributions and feedback!
+
+📄 License
 This project is licensed under the MIT License.
-
-***
-

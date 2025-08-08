@@ -86,6 +86,8 @@ Below are some screenshots showcasing the UI and example outputs:
 
 
 <img width="1177" height="591" alt="image" src="https://github.com/user-attachments/assets/2cfd5d49-4e52-461c-8c05-c2aeb1afd1f5" />
+<img width="1537" height="715" alt="image" src="https://github.com/user-attachments/assets/4a94b0a5-ed9b-4854-9ea5-f4e9d28376f1" />
+
 <img width="1280" height="742" alt="image" src="https://github.com/user-attachments/assets/45818414-3edd-439e-821f-ce3de844842b" />
 <img width="1161" height="643" alt="image" src="https://github.com/user-attachments/assets/c05bb94a-870e-43ef-9334-d5ccd2a013d9" />
 <img width="1267" height="757" alt="image" src="https://github.com/user-attachments/assets/e37e233e-f011-4345-a02b-411a1833b43d" />

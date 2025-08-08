@@ -133,4 +133,3 @@ This project is licensed under the MIT License.
 
 ***
 
-If you want, I can also help you draft the backend API sample code or configuration instructions to make the full project README more complete. Just let me know!

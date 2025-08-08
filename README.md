@@ -1,5 +1,3 @@
-Here is an enhanced, polished README file for your Gemini Code Reviewer & Explainer project. It follows your provided format and adds a Demo section for screenshots, along with some stylistic and structural enhancements for clarity and appeal.
-
 Gemini Code Reviewer & Explainer
 A React-based frontend web application paired with an LLM-powered backend that helps developers review, explain, optimize, and generate test cases for their code snippets using advanced AI language models like Google Gemini or OpenAI GPT.
 
